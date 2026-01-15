@@ -29,7 +29,7 @@
         Random r = new Random();
 
         for (int i = 0; i < 50; i++)
-            ej4.InsertarFinal(r.Next(100, 400));
+            ej4.InsertarFinal(r.Next(1, 999));
 
         Console.WriteLine("\nLista original:");
         ej4.Mostrar();
